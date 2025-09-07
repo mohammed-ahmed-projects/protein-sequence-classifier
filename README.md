@@ -36,5 +36,21 @@ You can try the project yourself here:
 3. Run the main script to train the models and generate results: `python protein_classificato_1.py`.
 4. Run the demo script to launch the interactive interface: `python huggingface_demo.py`.
 
+## Citation
+
+If you find this repository useful in your research or projects, please cite it as:
+
+**APA:**
+Ahmed, M. (2025). *Protein Sequence Classifier*. GitHub. Retrieved from https://github.com/mohammed-ahmed-projects/protein-sequence-classifier  
+
+**BibTeX:**
+@misc{ahmed2025_protein_classifier,
+  author       = {Mohammed Ahmed},
+  title        = {Protein Sequence Classifier},
+  year         = {2025},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/mohammed-ahmed-projects/protein-sequence-classifier}}
+}
+
 ## Contact
 For any questions or support, please open an issue on this repository.
