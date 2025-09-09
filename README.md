@@ -44,6 +44,7 @@ If you find this repository useful in your research or projects, please cite it 
 Ahmed, M. (2025). *Protein Sequence Classifier*. GitHub. Retrieved from https://github.com/mohammed-ahmed-projects/protein-sequence-classifier  
 
 **BibTeX:**
+```
 @misc{ahmed2025_protein_classifier,
   author       = {Mohammed Ahmed},
   title        = {Protein Sequence Classifier},
@@ -51,6 +52,7 @@ Ahmed, M. (2025). *Protein Sequence Classifier*. GitHub. Retrieved from https://
   publisher    = {GitHub},
   howpublished = {\url{https://github.com/mohammed-ahmed-projects/protein-sequence-classifier}}
 }
+```
 
 ## Contact
 For any questions or support, please open an issue on this repository.
