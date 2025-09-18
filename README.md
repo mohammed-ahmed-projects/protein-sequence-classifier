@@ -36,19 +36,19 @@ Detailed training notebooks, model performance plots, and dataset preparation sc
 ## Installation & Usage
 
 Clone the repository and install dependencies:
-```
+```bash
 git clone https://github.com/mohammed-ahmed-projects/protein-sequence-classifier.git
 cd protein-sequence-classifier
 pip install -r requirements.txt
 ```
 
 ## Train Models
-```
-python protein_classificatio_1.py
+```python
+python protein_classification_1.py
 ```
 
 ## Launch Demo
-```
+```python
 python app.py
 ```
 
@@ -57,10 +57,10 @@ python app.py
 If you use this repository in your research, please cite it:
 
 ### APA:
-Abdelmagid, M. (2025). Protein Sequence Classifier. GitHub. Retrieved from https://github.com/mohammed-ahmed-projects/protein-sequence-classifier
+Abdelmagid, M. (2025). *Protein Sequence Classifier* [GitHub repository]. GitHub. https://github.com/mohammed-ahmed-projects/protein-sequence-classifier
 
 ### BibTeX:
-```
+```bibtex
 @misc{abdelmagid2025_protein_classifier,
   author       = {Mohammed Ahmed Abdelmagid},
   title        = {Protein Sequence Classifier},
