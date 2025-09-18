@@ -76,5 +76,5 @@ For questions, collaborations, or suggestions:
 
 - Email: mohammed.ahmed.projects@gmail.com
 - Skype / Microsoft Teams: live:.cid.13bbe26ff8b2c5d2
-- Hugging Face: Profile
+- Hugging Face: https://huggingface.co/Mohammed-Ahmed7
 - GitHub Issues: Open a ticket directly in this repository
