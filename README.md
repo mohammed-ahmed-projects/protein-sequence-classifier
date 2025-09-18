@@ -28,7 +28,7 @@ This project classifies protein sequences as enzymes or non-enzymes using deep l
 ## Live Demo
 You can try the project yourself here:
 [Hugging Face Space Live Demo](https://huggingface.co/spaces/your-username/your-project-name)
-*(Link will be added after publishing)*
+*(Link will be added after finalizing the demo)*
 
 ## Usage
 1. Clone this repository.
