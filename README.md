@@ -1,52 +1,68 @@
-# Protein Sequence Classification Project
+# Protein Sequence Classifier
 
 ## Overview
-This project classifies protein sequences as enzymes or non-enzymes using deep learning models. It features a complete pipeline from data preprocessing to model training and performance evaluation.
+This repository provides a deep learning framework for **protein sequence classification**, distinguishing between enzymes and non-enzymes.  
+It combines **data preprocessing, model training, evaluation, and interactive visualization**, making it suitable for both research and educational use.
 
-## Key Features
-- **Comprehensive Data Processing**: Handles protein sequences, performs one-hot encoding, and creates a clean dataset.
-- **Advanced Deep Learning Models**: Utilizes both a Convolutional Neural Network (**CNN**) and a Bidirectional Long Short-Term Memory (**LSTM**) model for accurate classification.
-- **Detailed Evaluation**: Generates metrics like accuracy, precision, recall, and F1-score, along with a confusion matrix and ROC curves.
-- **Data Visualization**: Creates professional plots to visualize model performance and data characteristics.
-- **Interactive Web Demo**: A user-friendly interface built with Gradio for a live demonstration.
+## Features
+- **Comprehensive Data Processing**: Protein sequence cleaning, one-hot encoding, and dataset preparation.  
+- **Deep Learning Models**: Implements both Convolutional Neural Networks (**CNN**) and Bidirectional Long Short-Term Memory (**LSTM**) models.  
+- **Biochemical Insights**: Basic amino acid composition analysis and sequence statistics.  
+- **Evaluation Metrics**: Accuracy, precision, recall, F1-score, confusion matrix, and ROC curves.  
+- **Visualization**: Clear plots to show training dynamics, dataset distributions, and model predictions.  
+- **Interactive Web Demo**: Built with Gradio for live testing and exploration.  
+
+## Model Architectures
+
+### CNN
+- One-hot encoding (20-dimensional vectors)  
+- 1D Convolution (128 filters)  
+- Adaptive max pooling  
+- Fully connected classifier  
+
+### BiLSTM
+- Bidirectional LSTM (64 hidden units)  
+- 64-dimensional embedding  
+- Fully connected classifier  
+
+## Training Results
+Detailed training notebooks, model performance plots, and dataset preparation scripts are included in the repository under:  
+- **Main directory**: evaluation metrics and visualizations (e.g., PNG, CSV files)  
+- **Main directory**: trained CNN and LSTM weights saved as `.pth` files  
 
 ## Technologies
-- **Python**
-- **PyTorch**
-- **Scikit-learn**
-- **Pandas**
-- **Matplotlib**
-- **Gradio**
+- **Python**, **PyTorch**, **Scikit-learn**, **Pandas**, **Matplotlib**, **Gradio**  
 
-## Project Files
-- `protein_classificato_1.py`: The main script for the complete project pipeline.
-- `huggingface_demo.py`: The script for the interactive Gradio demo.
-- `requirements.txt`: Lists all necessary Python libraries.
-- `models/`: Folder containing the trained CNN and LSTM models.
-- `results/`: Folder containing performance metrics and visualizations.
+## Installation & Usage
 
-## Live Demo
-You can try the project yourself here:
-[Hugging Face Space Live Demo](https://huggingface.co/spaces/your-username/your-project-name)
-*(Link will be added after finalizing the demo)*
+Clone the repository and install dependencies:
+```
+git clone https://github.com/mohammed-ahmed-projects/protein-sequence-classifier.git
+cd protein-sequence-classifier
+pip install -r requirements.txt
+```
 
-## Usage
-1. Clone this repository.
-2. Install the required libraries: `pip install -r requirements.txt`.
-3. Run the main script to train the models and generate results: `python protein_classificato_1.py`.
-4. Run the demo script to launch the interactive interface: `python huggingface_demo.py`.
+## Train Models
+```
+python protein_classificatio_1.py
+```
+
+## Launch Demo
+```
+python app.py
+```
 
 ## Citation
 
-If you find this repository useful in your research or projects, please cite it as:
+If you use this repository in your research, please cite it:
 
-**APA:**
-Ahmed, M. (2025). *Protein Sequence Classifier*. GitHub. Retrieved from https://github.com/mohammed-ahmed-projects/protein-sequence-classifier  
+### APA:
+Abdelmagid, M. (2025). Protein Sequence Classifier. GitHub. Retrieved from https://github.com/mohammed-ahmed-projects/protein-sequence-classifier
 
-**BibTeX:**
+### BibTeX:
 ```
-@misc{ahmed2025_protein_classifier,
-  author       = {Mohammed Ahmed},
+@misc{abdelmagid2025_protein_classifier,
+  author       = {Mohammed Ahmed Abdelmagid},
   title        = {Protein Sequence Classifier},
   year         = {2025},
   publisher    = {GitHub},
@@ -55,4 +71,10 @@ Ahmed, M. (2025). *Protein Sequence Classifier*. GitHub. Retrieved from https://
 ```
 
 ## Contact
-For any questions or support, please open an issue on this repository.
+
+For questions, collaborations, or suggestions:
+
+• Email: mohammed.ahmed.projects@gmail.com
+• Skype / Microsoft Teams: live:.cid.13bbe26ff8b2c5d2
+• Hugging Face: Profile
+• GitHub Issues: Open a ticket directly in this repository
