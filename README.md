@@ -74,10 +74,7 @@ Abdelmagid, M. (2025). Protein Sequence Classifier. GitHub. Retrieved from https
 
 For questions, collaborations, or suggestions:
 
-• Email: mohammed.ahmed.projects@gmail.com
-
-• Skype / Microsoft Teams: live:.cid.13bbe26ff8b2c5d2
-
-• Hugging Face: Profile
-
-• GitHub Issues: Open a ticket directly in this repository
+- Email: mohammed.ahmed.projects@gmail.com
+- Skype / Microsoft Teams: live:.cid.13bbe26ff8b2c5d2
+- Hugging Face: Profile
+- GitHub Issues: Open a ticket directly in this repository
